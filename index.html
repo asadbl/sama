@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sama · Rooftop Kitchen, Café Bar & Shisha · Dubai</title>
+  <meta name="description" content="Sama is a Middle Eastern rooftop restaurant, café bar and shisha lounge on level 52 above Downtown Dubai, facing the Burj Khalifa.">
+  <meta name="theme-color" content="#0a0f1c">
+  <link rel="preload" as="image" href="assets/img/poster-roof.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Fraunces:opsz,wght,SOFT@9..144,300..900,0..100&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#arrival" aria-label="Sama home">
+      <span class="brand-en">Sama</span>
+      <span class="brand-ar" lang="ar">سما</span>
+    </a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#signature" data-i18n="nav.food">The table</a>
+      <a href="#coffee" data-i18n="nav.cafe">Café bar</a>
+      <a href="#shishaFilm" data-i18n="nav.shisha">Shisha</a>
+      <a href="#menu" data-i18n="nav.menu">Menu</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+        <span class="lang-ar" lang="ar">عربي</span><span class="lang-en">English</span>
+      </button>
+      <a class="btn btn-brass" href="#book" data-i18n="nav.book">Book a table</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- FILM 1: walk down the terrace to the Burj -->
+    <section class="film film--arrival" id="arrival" data-film="rooftop" style="--screens: 6" aria-label="The terrace">
+      <div class="film-stage">
+        <img class="film-poster" src="assets/img/poster-roof.jpg" alt="Candle-lit tables along a reflecting pool on Sama's terrace, with the Burj Khalifa beyond the glass">
+        <canvas class="film-canvas" aria-hidden="true"></canvas>
+        <div class="film-shade" aria-hidden="true"></div>
+
+        <div class="film-cap cap-hero" data-in="0" data-out=".2">
+          <h1 class="cap-brand"><span class="brand-word">Sama</span><span class="brand-word-ar" lang="ar">سما</span></h1>
+          <p class="cap-lead" data-i18n="f1.lead">Dinner fifty-two floors above Downtown Dubai.</p>
+          <p class="cap-hint" data-i18n="f1.hint">Scroll to step onto the terrace</p>
+        </div>
+        <div class="film-cap cap-start" data-in=".26" data-out=".5">
+          <h2 data-i18n="f1.c2">Candlelight on every table.</h2>
+          <p data-i18n="f1.c2p">Travertine, walnut and brass, set for long dinners that begin at sunset.</p>
+        </div>
+        <div class="film-cap cap-end" data-in=".56" data-out=".8">
+          <h2 data-i18n="f1.c3">Olive trees and still water lead you to the glass.</h2>
+          <p data-i18n="f1.c3p">A reflecting pool of floating candles runs the length of the terrace.</p>
+        </div>
+        <div class="film-cap cap-finale" data-in=".86" data-out="1">
+          <h2 data-i18n="f1.c4">And then, the Burj.</h2>
+          <p data-i18n="f1.c4p">Every seat on the terrace faces it.</p>
+          <a class="btn btn-brass btn-lg" href="#book" data-i18n="f1.cta">Book a skyline table</a>
+        </div>
+        <div class="film-progress" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story" aria-labelledby="storyTitle">
+      <h2 class="visually-hidden" id="storyTitle" data-i18n="story.title">Our story</h2>
+      <p class="story-text" id="storyText" data-i18n="story.text"></p>
+      <p class="story-sign" data-i18n="story.sign">Sama means sky.</p>
+    </section>
+
+    <!-- SIGNATURE: pinned, scroll steps through the plates -->
+    <section class="hero" id="signature" aria-label="Signature dishes">
+      <div class="hero-stage">
+        <div class="hero-ghost" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+
+        <div class="hero-plate">
+          <img class="plate-img is-on" alt="" src="assets/img/hummus2.jpg">
+          <img class="plate-img" alt="" src="assets/img/topdark.jpg">
+        </div>
+        <div class="particles" aria-hidden="true"></div>
+
+        <div class="hero-word" aria-hidden="true"></div>
+
+        <div class="hero-info">
+          <p class="hero-count"><span class="count-now">1</span><span class="count-sep">/</span><span class="count-total">6</span></p>
+          <p class="hero-cat"></p>
+          <h2 class="hero-name"></h2>
+          <p class="hero-alt"></p>
+          <p class="hero-desc"></p>
+          <div class="hero-buy">
+            <span class="hero-price"></span>
+            <a class="btn btn-ghost" href="#menu" data-i18n="hero.cta">See the full menu</a>
+          </div>
+        </div>
+
+        <ol class="hero-index" aria-label="Signature dishes"></ol>
+
+        <div class="hero-foot">
+          <span data-i18n="hero.scroll">Scroll to move through the table</span>
+          <span class="hero-progress"><i></i></span>
+          <span data-i18n="hero.where">Level 52, Downtown Dubai</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee" aria-label="Ingredients">
+      <div class="marquee-row" data-dir="1"><div class="marquee-track" id="mqEn"></div></div>
+      <div class="marquee-row marquee-ar" data-dir="-1" lang="ar"><div class="marquee-track" id="mqAr"></div></div>
+    </section>
+
+    <!-- VIEW: skyline through the letters -->
+    <section class="view" id="view" aria-labelledby="viewTitle">
+      <div class="view-pin">
+        <img class="view-img" src="assets/img/skyline-4k.jpg" alt="Downtown Dubai at blue hour, the Burj Khalifa lit up above the Dubai Fountain lake">
+        <div class="view-mask" aria-hidden="true"><span class="view-word" id="viewWord">DUBAI</span></div>
+        <div class="view-caption">
+          <h2 id="viewTitle" data-i18n="view.title">Every table faces the Burj.</h2>
+          <dl class="view-facts">
+            <div><dt data-i18n="view.f1k">Level</dt><dd>52</dd></div>
+            <div><dt data-i18n="view.f2k">Skyline</dt><dd>180°</dd></div>
+            <div><dt data-i18n="view.f3k">Seats</dt><dd>140</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEATING -->
+    <section class="seating" aria-labelledby="seatTitle">
+      <header class="sec-head">
+        <h2 id="seatTitle" data-i18n="seat.title">Choose where you sit</h2>
+        <p data-i18n="seat.lead">Three ways to spend the evening, all under the same sky.</p>
+      </header>
+      <div class="seat-list" id="seatList"></div>
+    </section>
+
+    <!-- FILM 2: Arabic coffee on the coals -->
+    <section class="film film--coffee" id="coffee" data-film="coffee" style="--screens: 5" aria-label="Arabic coffee">
+      <div class="film-stage">
+        <img class="film-poster" src="assets/img/poster-coffee.jpg" alt="A brass dallah on glowing charcoal beside a white finjan cup, dates and cardamom">
+        <canvas class="film-canvas" aria-hidden="true"></canvas>
+        <div class="film-shade" aria-hidden="true"></div>
+        <div class="film-cap cap-start" data-in="0" data-out=".3">
+          <h2 data-i18n="f2.c1">Qahwa, the old way.</h2>
+          <p data-i18n="f2.c1p">The dallah sits on live charcoal until the cardamom and saffron bloom.</p>
+        </div>
+        <div class="film-cap cap-end" data-in=".38" data-out=".68">
+          <h2 data-i18n="f2.c2">Poured high, from the spout.</h2>
+          <p data-i18n="f2.c2p">A thin golden stream, the way it is poured in a Bedouin majlis.</p>
+        </div>
+        <div class="film-cap cap-start" data-in=".76" data-out="1">
+          <h2 data-i18n="f2.c3">Served with Khalas dates.</h2>
+          <p data-i18n="f2.c3p">A dallah for the table, poured until you shake your cup.</p>
+        </div>
+        <div class="film-progress" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- CAFE BAR -->
+    <section class="cafe" id="cafe" aria-labelledby="cafeTitle">
+      <div class="cafe-media">
+        <img id="cafeImg" src="assets/img/seat-bar.jpg" alt="">
+      </div>
+      <div class="cafe-body">
+        <h2 id="cafeTitle" data-i18n="cafe.title">The café bar</h2>
+        <p class="cafe-lead" data-i18n="cafe.lead">Arabic coffee poured from the dallah in the afternoon. Zero-proof signatures with smoke and saffron after dark.</p>
+        <div class="cafe-groups" id="cafeList"></div>
+      </div>
+    </section>
+
+    <!-- FILM 3: the shisha -->
+    <section class="film film--shisha" id="shishaFilm" data-film="shisha" style="--screens: 5" aria-label="The shisha">
+      <div class="film-stage">
+        <img class="film-poster" src="assets/img/poster-shisha.jpg" alt="A crystal and gold shisha on a black marble table with the Dubai skyline behind">
+        <canvas class="film-canvas" aria-hidden="true"></canvas>
+        <div class="smoke film-smoke" aria-hidden="true"><span style="--d:0s"></span><span style="--d:-5s"></span><span style="--d:-10s"></span><span style="--d:-15s"></span></div>
+        <div class="film-shade" aria-hidden="true"></div>
+        <div class="film-cap cap-end" data-in="0" data-out=".3">
+          <h2 data-i18n="f3.c1">The shisha lounge.</h2>
+          <p data-i18n="f3.c1p">Hand-cut crystal, engraved gold and a braided leather hose.</p>
+        </div>
+        <div class="film-cap cap-start" data-in=".36" data-out=".66">
+          <h2 data-i18n="f3.c2">Cold water, slow bubbles.</h2>
+          <p data-i18n="f3.c2p">Iced water in the base keeps every draw smooth and cool.</p>
+        </div>
+        <div class="film-cap cap-end" data-in=".74" data-out="1">
+          <h2 data-i18n="f3.c3">Natural coconut coals.</h2>
+          <p data-i18n="f3.c3p">Changed every twenty minutes by your shisha master.</p>
+        </div>
+        <div class="film-progress" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <!-- SHISHA FLAVOURS -->
+    <section class="shisha" id="shisha" aria-labelledby="shishaTitle">
+      <div class="smoke" aria-hidden="true">
+        <span style="--d:0s"></span><span style="--d:-6s"></span><span style="--d:-12s"></span>
+      </div>
+      <div class="shisha-inner">
+        <header class="shisha-head">
+          <h2 id="shishaTitle"><span data-i18n="shisha.title">Choose your flavour</span></h2>
+          <p data-i18n="shisha.lead">Low sofas at the edge of the terrace, crystal bases and natural coconut coals. Your shisha master changes the coals every twenty minutes.</p>
+          <p class="shisha-note" data-i18n="shisha.note">From 6 pm until late. Guests 18 and over.</p>
+        </header>
+        <ul class="flavours" id="flavourList"></ul>
+      </div>
+    </section>
+
+    <!-- FULL MENU -->
+    <section class="menu" id="menu" aria-labelledby="menuTitle">
+      <header class="menu-head">
+        <h2 id="menuTitle" data-i18n="menu.title">The whole table</h2>
+        <p data-i18n="menu.lead">Made for sharing. Prices in AED and include VAT.</p>
+      </header>
+      <div class="menu-tabs" role="tablist" id="menuTabs"></div>
+      <div class="menu-rows" id="menuRows" role="tabpanel"></div>
+      <div class="menu-follow" aria-hidden="true"><img alt="" id="followImg" src="assets/img/hummus2.jpg"></div>
+    </section>
+
+    <!-- BOOK -->
+    <section class="book" id="book" aria-labelledby="bookTitle">
+      <div class="book-side">
+        <h2 id="bookTitle" data-i18n="book.title">Book a table</h2>
+        <p data-i18n="book.lead">Sunset tables go first. Book a day ahead for the skyline edge.</p>
+        <dl class="book-info">
+          <div><dt data-i18n="book.hours">Hours</dt><dd data-i18n="book.hoursv">Daily, 4 pm to 3 am</dd></div>
+          <div><dt data-i18n="book.where">Find us</dt><dd data-i18n="book.wherev">Level 52, Sama Tower, Downtown Dubai</dd></div>
+          <div><dt data-i18n="book.call">Call or WhatsApp</dt><dd dir="ltr">+971 4 000 0000</dd></div>
+          <div><dt data-i18n="book.dress">Dress code</dt><dd data-i18n="book.dressv">Smart casual</dd></div>
+        </dl>
+      </div>
+      <form class="book-form" id="bookForm" novalidate>
+        <div class="field">
+          <label for="fName" data-i18n="f.name">Name</label>
+          <input id="fName" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="fPhone" data-i18n="f.phone">Mobile number</label>
+          <input id="fPhone" name="phone" type="tel" autocomplete="tel" dir="ltr" required>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="fDate" data-i18n="f.date">Date</label>
+            <input id="fDate" name="date" type="date" required>
+          </div>
+          <div class="field">
+            <label for="fTime" data-i18n="f.time">Time</label>
+            <select id="fTime" name="time" required></select>
+          </div>
+          <div class="field">
+            <label for="fGuests" data-i18n="f.guests">Guests</label>
+            <select id="fGuests" name="guests"></select>
+          </div>
+        </div>
+        <fieldset class="field seat-pick">
+          <legend data-i18n="f.seat">Where would you like to sit?</legend>
+          <div class="chips" id="seatChips"></div>
+        </fieldset>
+        <div class="field">
+          <label for="fNote" data-i18n="f.note">Anything we should know?</label>
+          <textarea id="fNote" name="note" rows="3"></textarea>
+        </div>
+        <button class="btn btn-brass btn-lg" type="submit" data-i18n="f.submit">Request table</button>
+        <p class="form-msg" id="formMsg" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-mark" aria-hidden="true"><span>Sama</span><span lang="ar">سما</span></div>
+    <div class="foot-row">
+      <p data-i18n="foot.line">Rooftop kitchen, café bar and shisha lounge. Downtown Dubai.</p>
+      <nav aria-label="Social">
+        <a href="#" data-i18n="foot.ig">Instagram</a>
+        <a href="#" data-i18n="foot.tt">TikTok</a>
+        <a href="#" data-i18n="foot.map">Google Maps</a>
+      </nav>
+      <p class="foot-small">© 2026 Asad · Sama. <span data-i18n="foot.rights">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/film.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

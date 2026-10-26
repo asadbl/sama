@@ -1,0 +1,32 @@
+{
+ "rooftop": {
+  "count": 361,
+  "fps": 24,
+  "source_height": 2160,
+  "tiers": [
+   "x",
+   "d",
+   "m"
+  ]
+ },
+ "coffee": {
+  "count": 289,
+  "fps": 24,
+  "source_height": 2160,
+  "tiers": [
+   "x",
+   "d",
+   "m"
+  ]
+ },
+ "shisha": {
+  "count": 289,
+  "fps": 24,
+  "source_height": 2160,
+  "tiers": [
+   "x",
+   "d",
+   "m"
+  ]
+ }
+}

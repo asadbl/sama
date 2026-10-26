@@ -1,0 +1,7 @@
+.DS_Store
+.impeccable/
+# generated footage and working files (over 1 GB): the site only needs index.html, css/, js/ and assets/
+reel/
+scenes/
+source/
+video/
